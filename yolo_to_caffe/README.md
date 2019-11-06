@@ -1,6 +1,7 @@
 # convert txt to xml format
 ```
 PREREQUISITES :::INSTALL ElementTree::::link::::http://effbot.org/zone/element-index.htm
+:::::::::::::::::$ pip install Pillow::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ```
 1: create a folder named "annotations" and "images" inside yolo_to_caffe.
