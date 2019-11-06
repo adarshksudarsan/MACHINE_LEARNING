@@ -1,28 +1,3 @@
-# Script to convert yolo annotations to voc format
-
-# Sample format
-# <annotation>
-#     <folder>_image_fashion</folder>
-#     <filename>brooke-cagle-39574.jpg</filename>
-#     <size>
-#         <width>1200</width>
-#         <height>800</height>
-#         <depth>3</depth>
-#     </size>
-#     <segmented>0</segmented>
-#     <object>
-#         <name>head</name>
-#         <pose>Unspecified</pose>
-#         <truncated>0</truncated>
-#         <difficult>0</difficult>
-#         <bndbox>
-#             <xmin>549</xmin>
-#             <ymin>251</ymin>
-#             <xmax>625</xmax>
-#             <ymax>335</ymax>
-#         </bndbox>
-#     </object>
-# <annotation>
 import os
 import xml.etree.cElementTree as ET
 from PIL import Image
