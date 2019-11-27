@@ -10,5 +10,5 @@ PREREQUISITES :::INSTALL ElementTree::::link::::http://effbot.org/zone/element-i
 
 3: replace the dictionary CLASS_MAPPING (line:34) in txt_to_xml_v1.py according to your class.
 
-4: Run txt_to_xml_v1.py and you will find the converted labels under "converted_label".
+4: Run ![txt_to_xml_v1.py](https://github.com/adarshksudarsan/MACHINE_LEARNING/blob/master/yolo_to_caffe/txt_to_xml_v1.py) and you will find the converted labels under "converted_label".
 
